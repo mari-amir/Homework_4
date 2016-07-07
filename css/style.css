@@ -1,0 +1,159 @@
+body {
+  background: url(../img/fon.jpg) #a0ebf3;
+  background-size: cover;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+}
+.wrapper {
+  margin: 0 auto;
+  background-color: white;
+  width: 1000px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.9);
+  border-bottom:3px solid black;
+}
+.image {
+  border-top: 1px solid #b0d8e2;
+  border-bottom: 1px solid #b0d8e2;
+}
+
+/*HEADER*/
+.header {
+  display: block;
+  height: 173px;
+  background-color: white;
+  background-size: cover;
+}
+.logo {
+  float: left;
+  background: url(../img/logo.jpg);
+  width: 283px;
+  height: 158px;
+  margin-left: 26px;
+  margin-top: 20px;
+}
+.forma_contact {
+  float: right;
+}
+.contact {
+margin-left: 240px;
+}
+.contact li {
+  font-size: 12px;
+  list-style: none;
+  line-height: 1.5;
+  color: #128aa7;
+  padding-right: 36px;
+}
+.contact li:first-child {
+  font-weight: bold;
+}
+.country {
+  margin: 5px 36px;
+}
+.country li {
+  display: inline-block;
+  height: 53px;
+}
+.india {
+  background: url("../img/india.png") no-repeat center ;
+}
+.nepal {
+  background: url("../img/nepal.png") no-repeat center;
+}
+.tibet {
+  background: url("../img/tibet.png") no-repeat center;
+}
+.butan {
+  background: url("../img/butan.png") no-repeat center;
+}
+.lanka {
+  background: url("../img/lanka.png") no-repeat center;
+}
+.maldiv {
+  background: url("../img/maldiv.png") no-repeat center;
+}
+.country a {
+  display: block;
+  width: 54px;
+  height: 39px;
+  padding-top: 80px;
+  font-size: 10px;
+  text-decoration: underline;
+  text-align: center;
+  color: #128aa7;
+}
+
+/*MENU*/
+.menu {
+  background: linear-gradient(#373737 28px, #303030 28px);
+  border-bottom: 1px solid #000;
+  height: 28px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.9);
+}
+.menu li {
+  float: left;
+  position: relative;
+}
+.menu li a {
+  display: block;
+  padding: 0 35px;
+  line-height:10px;
+  color: #fff;
+  margin-top: 8px;
+  text-decoration: none;
+}
+.sub-menu {
+  display: none;;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: #303030;
+  box-shadow: 0 0 7px rgba(0,0,0,0.9);
+}
+.sub-menu li a {
+  display: block;
+  padding: 10px 33px;
+}
+.menu li:hover ul {
+  display: block;
+}
+
+/*CONTENT*/
+.content{
+  color: #424c43;
+  overflow: hidden;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 12px 0;
+}
+.content p {
+  margin:10px 15px;
+}
+.content-left {
+  width: 214px;
+  background-color: #edeef0;
+  float: left;
+  height: auto;
+}
+.content-right {
+  width: 210px;
+  background-color: #edeef0;
+  float: left;
+  height: auto;;
+}
+.content-center {
+  float: left;
+  width: 575px;
+  background-color: #fff;
+  height: auto;
+}
+
+/*FOOTER*/
+.footer {
+  color: #fff;
+  font-size:12px;
+  text-align: center;
+  padding: 10px;
+}
